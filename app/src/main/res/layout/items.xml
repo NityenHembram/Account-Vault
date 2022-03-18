@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemBtn"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView android:id="@+id/acc_name"
+        android:textSize="20sp"
+        android:padding="12dp"
+        android:layout_weight="5"
+        android:text="@string/account_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/update_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_edit_24"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_delete_24"
+        android:layout_gravity="center"
+        android:layout_weight="1">
+    </ImageView>
+</LinearLayout>
